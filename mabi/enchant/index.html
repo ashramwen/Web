@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="myModule">
+	<head>
+		<meta charset="utf-8">
+
+		<!-- Always force latest IE rendering engine (even in intranet) & Chrome Frame
+		Remove this if you use the .htaccess -->
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+		<title>扣強裝賦予</title>
+		<meta name="description" content="">
+		<meta name="author" content="augustine">
+
+		<meta name="viewport" content="width=device-width; initial-scale=1.0">
+
+		<!-- Replace favicon.ico & apple-touch-icon.png in the root of your domain and delete these references -->
+		<link rel="shortcut icon" href="/favicon.ico">
+		
+		<link rel="stylesheet" type="text/css" href="../css/bootstrap.min.css">
+		<link rel="stylesheet" type="text/css" href="enchant.css">
+
+		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/angularjs/1.2.7/angular.js"></script>
+		<script type="text/javascript" src="../js/ui-bootstrap-tpls-0.10.0.min.js"></script>
+		<script type="text/javascript" src="enchant.js"></script>
+	</head>
+
+	<body ng-controller="EnchantCtrl">
+		<div>
+			<header>
+				<h1>扣強裝賦予</h1>
+			</header>
+			
+			<div>
+				<ul>
+					<li>
+						手部 [長刀鋒手套]
+						<ul>
+							<li ng-repeat="o in hand">
+								<a alt="" href="{{o.url}}" target="_blank">{{o.name}}</a>
+							</li>
+						</ul>
+					</li>
+					<li>
+						頭部 [諾曼勇士頭盔]
+						<ul>
+							<li ng-repeat="o in head">
+								<a alt="" href="{{o.url}}" target="_blank">{{o.name}}</a>
+							</li>
+						</ul>
+					</li>
+				</ul>
+			</div>
+
+			<footer>
+				<p>
+					資料來源：Mabinogi奇幻世界
+				</p>
+			</footer>
+		</div>
+	</body>
+</html>

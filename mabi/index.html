@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html ng-app>
+	<head>
+		<meta charset="utf-8">
+		<title>十六米的世界</title>
+
+		<!-- Core CSS - Include with every page -->
+		<link href="css/bootstrap.min.css" rel="stylesheet">
+		<link href="font-awesome/css/font-awesome.css" rel="stylesheet">
+
+		<!-- Page-Level Plugin CSS - Blank -->
+		<link href="css/main.css" rel="stylesheet">
+
+		<!-- SB Admin CSS - Include with every page -->
+		<link href="css/sb-admin.css" rel="stylesheet">
+		
+		<link rel="shortcut icon" href="/favicon.ico">
+	</head>
+
+	<body ng-controller="MabiCtrl">
+		<div id="wrapper">
+			<nav class="navbar navbar-default navbar-static-top" role="navigation" style="margin-bottom: 0">
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".sidebar-collapse">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<a class="navbar-brand" href="index.html">十六米的世界</a>
+				</div>
+				<!-- /.navbar-header -->
+			</nav>
+			<!-- /.navbar-static-top -->
+			<nav class="navbar-default navbar-static-side" role="navigation">
+				<div class="sidebar-collapse">
+					<ul class="nav" id="side-menu">
+						<li class="active">
+							<a href="#"><i class="fa fa-github-alt fa-fw"></i> 嘎嘎小鴨 <span class="fa arrow"></span></a>
+							<ul class="nav nav-second-level">
+								<li>
+									<a ng-click="iframeUrl = 'ducat/'" href="#">貿易計算雞</a>
+								</li>
+								<li>
+									<a ng-click="iframeUrl = 'enchant/'" href="#">扣強賦予</a>
+								</li>
+							</ul>
+							<!-- /.nav-second-level -->
+						</li>
+						<li>
+							<a href="#"><i class="fa fa-bug fa-fw"></i> 噗啾圓仔<span class="fa arrow"></span></a>
+							<ul class="nav nav-second-level">
+								<li>
+									<a href="http://mabinogi.fws.tw/" target="_blank">Mabinogi奇幻世界</a>
+								</li>
+								<li>
+									<a href="http://global.erinn.biz/shopboard.php?altsv=mabitw4" target="_blank">房屋看板</a>
+								</li>
+								<li>
+									<a href="http://weather.erinn.biz/smuggler.php" target="_blank">走私販情報</a>
+								</li>
+								<li>
+									<a href="http://tw.beanfun.com/mabinogi/index.aspx" target="_blank">瑪奇官網</a>
+								</li>
+							</ul>
+							<!-- /.nav-second-level -->
+						</li>
+					</ul>
+					<!-- /#side-menu -->
+				</div>
+				<!-- /.sidebar-collapse -->
+			</nav>
+			<!-- /.navbar-static-side -->
+
+			<div id="page-wrapper">
+				<iframe id="iframe1" ng-src="{{iframeUrl}}" ng-init="iframeUrl = 'ducat/'" frameborder="0" seamless></iframe>
+			</div>
+			<!-- /#page-wrapper -->
+
+		</div>
+		<!-- /#wrapper -->
+
+		<!-- Core Scripts - Include with every page -->
+		<script src="js/jquery-1.10.2.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+		<script src="js/plugins/metisMenu/jquery.metisMenu.js"></script>
+
+		<!-- Page-Level Plugin Scripts - Blank -->
+
+		<!-- SB Admin Scripts - Include with every page -->
+		<script src="js/sb-admin.js"></script>
+
+		<!-- Page-Level Demo Scripts - Blank - Use for reference -->
+		<script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.2.7/angular.js"></script>
+		<script src="js/mabi.js"></script>
+	</body>
+
+</html>
