@@ -3,7 +3,7 @@ function reSize() {
 	if(frameElement!=null)
 	parent.document.getElementById(frameElement.id).height = document.body.scrollHeight;
 } 
-window.onload = reSize;
+//window.onload = reSize;
 
 angular.module('myModule', ['ui.bootstrap']).directive('selectOnClick', function() {
 	// Linker function

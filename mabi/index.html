@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html ng-app>
+<html ng-app="myApp">
 	<head>
 		<meta charset="utf-8" />
 		<!-- Always force latest IE rendering engine (even in intranet) & Chrome Frame
@@ -8,18 +8,19 @@
 		<meta http-equiv="cache-control" content="no-cache">
 		<meta http-equiv="pragma" content="no-cache">
 		<meta http-equiv="expires" content="0">
+		
 		<title>十六米的世界</title>
 
 		<!-- Core CSS - Include with every page -->
-		<link href="css/bootstrap.min.css" rel="stylesheet">
-		<link href="font-awesome/css/font-awesome.css" rel="stylesheet">
+		<link rel="stylesheet" href="css/bootstrap.min.css">
+		<link rel="stylesheet" href="font-awesome/css/font-awesome.css">
 
 		<!-- Page-Level Plugin CSS - Blank -->
-		<link href="css/main.css" rel="stylesheet">
+		<link rel="stylesheet" href="css/main.css">
 
 		<!-- SB Admin CSS - Include with every page -->
-		<link href="css/sb-admin.css" rel="stylesheet">
-		
+		<link rel="stylesheet" href="css/sb-admin.css">
+
 		<link rel="shortcut icon" href="/favicon.ico">
 	</head>
 
@@ -45,10 +46,10 @@
 							<a href="#"><i class="fa fa-github-alt fa-fw"></i> 嘎嘎小鴨 <span class="fa arrow"></span></a>
 							<ul class="nav nav-second-level">
 								<li>
-									<a ng-click="iframeUrl = 'ducat/'" href="#">貿易計算雞</a>
+									<a ng-click="switchIframe(0)" href="#">貿易計算雞</a>
 								</li>
 								<li>
-									<a ng-click="iframeUrl = 'enchant/'" href="#">扣強賦予</a>
+									<a ng-click="switchIframe(1)" href="#">扣強賦予</a>
 								</li>
 							</ul>
 							<!-- /.nav-second-level -->
@@ -78,8 +79,9 @@
 			</nav>
 			<!-- /.navbar-static-side -->
 
-			<div id="page-wrapper">
-				<iframe id="iframe1" ng-src="{{iframeUrl}}" ng-init="iframeUrl = 'ducat/'" frameborder="0" scrolling="no" seamless></iframe>
+			<div id="page-wrapper" style="height:{{pageH}}px">
+				<!--<iframe id="iframe1" ng-src="{{iframeUrl}}" ng-init="iframeUrl = 'ducat/'" frameborder="0" scrolling="no" seamless></iframe>-->
+				<iframe ng-repeat="if in iframes" id="iframe{{$index}}" ng-src="{{if.url}}" ng-show="if.show" frameborder="0" scrolling="no" seamless repeat-done="layoutDone()"></iframe>
 			</div>
 			<!-- /#page-wrapper -->
 
@@ -95,8 +97,7 @@
 
 		<!-- SB Admin Scripts - Include with every page -->
 		<script src="js/sb-admin.js"></script>
-
-		<!-- Page-Level Demo Scripts - Blank - Use for reference -->
+		
 		<script src="js/angular.min.js"></script>
 		<script src="js/mabi.js"></script>
 	</body>
