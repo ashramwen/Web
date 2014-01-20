@@ -13,13 +13,13 @@ function MabiCtrl($scope) {
 	$scope.iframes = [{
 		url : "ducat/",
 		show : true,
-		h : 820
+		h : 880
 	}, {
 		url : "enchant/",
 		show : false,
 		h : 247
 	}];
-	$scope.pageH = $scope.iframes[0].h;
+	$scope.pageH = $scope.iframes[0].h + 76;
 
 	$scope.layoutDone = function() {
 		for (var i = 0; i < $scope.iframes.length; i++) {
