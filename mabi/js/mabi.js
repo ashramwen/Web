@@ -13,17 +13,17 @@ function MabiCtrl($scope) {
 	$scope.iframes = [{
 		url : "ducat/",
 		show : true,
-		h : 904
+		h : 725
 	}, {
 		url : "enchant/",
 		show : false,
 		h : 247
 	}];
-	$scope.pageH = $scope.iframes[0].h + 76;
+	$scope.pageH = $scope.iframes[0].h;
 
 	$scope.layoutDone = function() {
 		for (var i = 0; i < $scope.iframes.length; i++) {
-			$('iframe')[i].height = $scope.iframes[i].h;
+			$('iframe')[i].height = $scope.iframes[i].h + 10;
 		}
 	};
 
@@ -31,7 +31,7 @@ function MabiCtrl($scope) {
 		for (var i = 0; i < $scope.iframes.length; i++) {
 			$scope.iframes[i].show = (i == index);
 			if (i == index) {
-				$scope.pageH = $scope.iframes[i].h + 76;
+				$scope.pageH = $scope.iframes[i].h + 10;
 			}
 		}
 	};
