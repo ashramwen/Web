@@ -1,3 +1,8 @@
+function reSize() {
+　　parent.document.all.iframe1.height = document.body.scrollHeight; 
+} 
+window.onload = reSize;
+
 angular.module('myModule', ['ui.bootstrap']).directive('selectOnClick', function() {
 	// Linker function
 	return function(scope, element, attrs) {
