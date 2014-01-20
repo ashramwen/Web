@@ -1,5 +1,7 @@
 function reSize() {
-　　parent.document.all.iframe1.height = document.body.scrollHeight; 
+　　//parent.document.all.iframe1.height = document.body.scrollHeight;
+	if(frameElement!=null)
+	parent.document.getElementById(frameElement.id).height = document.body.scrollHeight;
 } 
 window.onload = reSize;
 
