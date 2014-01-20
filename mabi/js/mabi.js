@@ -1,7 +1,7 @@
 /**
  * @author Han
  */
-angular.module('myApp', []).directive('repeatDone', function() {
+angular.module('myApp', ['ngAnimate']).directive('repeatDone', function() {
 	return function(scope, element, attrs) {
 		if (scope.$last) {
 			scope.$eval(attrs.repeatDone);
@@ -13,7 +13,7 @@ function MabiCtrl($scope) {
 	$scope.iframes = [{
 		url : "ducat/",
 		show : true,
-		h : 880
+		h : 904
 	}, {
 		url : "enchant/",
 		show : false,

@@ -8,19 +8,18 @@
 		<meta http-equiv="cache-control" content="no-cache">
 		<meta http-equiv="pragma" content="no-cache">
 		<meta http-equiv="expires" content="0">
-		
+
 		<title>十六米的世界</title>
 
 		<!-- Core CSS - Include with every page -->
 		<link rel="stylesheet" href="css/bootstrap.min.css">
 		<link rel="stylesheet" href="font-awesome/css/font-awesome.css">
 
-		<!-- Page-Level Plugin CSS - Blank -->
-		<link rel="stylesheet" href="css/main.css">
-
 		<!-- SB Admin CSS - Include with every page -->
 		<link rel="stylesheet" href="css/sb-admin.css">
 
+		<link rel="stylesheet" href="css/main.css">
+		<link rel="stylesheet" href="css/animation.css">
 		<link rel="shortcut icon" href="/favicon.ico">
 	</head>
 
@@ -81,7 +80,7 @@
 
 			<div id="page-wrapper" style="height:{{pageH}}px">
 				<!--<iframe id="iframe1" ng-src="{{iframeUrl}}" ng-init="iframeUrl = 'ducat/'" frameborder="0" scrolling="no" seamless></iframe>-->
-				<iframe ng-repeat="if in iframes" id="iframe{{$index}}" ng-src="{{if.url}}" ng-show="if.show" frameborder="0" scrolling="no" seamless repeat-done="layoutDone()"></iframe>
+				<iframe ng-repeat="if in iframes" id="iframe{{$index}}" ng-src="{{if.url}}" ng-show="if.show" frameborder="0" scrolling="no" seamless repeat-done="layoutDone()" class="check-element animate-show"></iframe>
 			</div>
 			<!-- /#page-wrapper -->
 
@@ -97,8 +96,9 @@
 
 		<!-- SB Admin Scripts - Include with every page -->
 		<script src="js/sb-admin.js"></script>
-		
+
 		<script src="js/angular.min.js"></script>
+		<script src="js/angular-animate.min.js"></script>
 		<script src="js/mabi.js"></script>
 	</body>
 
