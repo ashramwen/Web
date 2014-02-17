@@ -18,6 +18,10 @@ function MabiCtrl($scope) {
 		url : "enchant/",
 		show : false,
 		h : 247
+	}, {
+		url : "blacksmith/",
+		show : false,
+		h : 250
 	}];
 	$scope.pageH = $scope.iframes[0].h;
 
