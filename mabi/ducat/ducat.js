@@ -61,12 +61,7 @@ function DucatCtrl($scope) {
 		t3 : [8, 900],
 		t4 : [7, 1700]
 	};
-	$scope.trades = {
-		t1 : [4, 400],
-		t2 : [6, 800],
-		t3 : [8, 900],
-		t4 : [7, 1700]
-	};
+	$scope.trades;
 	$scope.citys = {
 		1 : ["堤爾克那", "Tir Chonaill", t1, g1],
 		2 : ["杜巴頓", "Dunbarton", t2, g2],
