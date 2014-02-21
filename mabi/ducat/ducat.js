@@ -55,6 +55,12 @@ function DucatCtrl($scope) {
 	var t8 = [["Lv1", "鐵鞭子", 1, 8, 15], ["Lv2", "闇之劍", 1, 12, 10], ["Lv4", "金庫", 1, 220, 1], ["Lv5", "骷髏食人魔鎧甲", 1, 180, 1], ["Lv7", "仿造摩根特頭盔", 1, 40, 10]];
 	var g8 = [[0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0]];
 
+	$scope.conveyance = {
+		t1 : [4, 400],
+		t2 : [6, 800],
+		t3 : [8, 900],
+		t4 : [7, 1700]
+	};
 	$scope.trades = {
 		t1 : [4, 400],
 		t2 : [6, 800],
@@ -74,15 +80,33 @@ function DucatCtrl($scope) {
 
 	$scope.partner = true;
 	$scope.alpaca = true;
+	
+	function switchConveyance() {
+		$scope.trades = angular.copy($scope.conveyance);
+		if ($scope.partner && $scope.alpaca) {
+			angular.forEach($scope.trades, function(o, key) {
+				o[0] += 1;
+				o[1] += 100;
+			});
+			$scope.trades.t3[0] += 1;
+			$scope.trades.t3[1] += 100;
+		}
+		else if ($scope.partner) {
+			angular.forEach($scope.trades, function(o, key) {
+				o[0] += 1;
+				o[1] += 100;
+			});
+		}
+		else if ($scope.alpaca) {
+			$scope.trades.t3[0] += 2;
+			$scope.trades.t3[1] += 200;
+		}
+	}
 
 	$scope.earn = function(price, weight, a_slot, trade) {
 		var ducat;
 		var mySlot = trade[0];
 		var myWeight = trade[1];
-		if ($scope.partner) {
-			mySlot += 1;
-			myWeight += 100;
-		}
 		if (mySlot * a_slot * weight > myWeight)
 			ducat = Math.floor(myWeight / weight);
 		else
@@ -90,16 +114,17 @@ function DucatCtrl($scope) {
 		return ducat * price;
 	};
 
-
 	$scope.init = function() {
+		switchConveyance();
 		angular.forEach($scope.citys, function(city, key) {
 			for (var i = 0; i < city[2].length; i++) {
-				angular.forEach($scope.trades, function(t, key) {
-					var index = parseInt(key.substring(1, 2)) - 1; 
+				angular.forEach($scope.trades, function(t, tkey) {
+					var index = parseInt(tkey.substring(1, 2)) - 1; 
 					city[3][i][index] = $scope.earn(city[2][i][2], city[2][i][3], city[2][i][4], t);
 				});
 			}
 		});
+		var a=1;
 	};
 	$scope.init();
 }
