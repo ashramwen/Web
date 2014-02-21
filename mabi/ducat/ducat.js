@@ -72,6 +72,9 @@ function DucatCtrl($scope) {
 		8 : ["貝爾法斯特", "Belfast", t8, g8]
 	};
 
+	$scope.partner = true;
+	$scope.alpaca = true;
+
 	$scope.earn = function(price, weight, a_slot, trade) {
 		var ducat;
 		var mySlot = trade[0];
@@ -87,7 +90,7 @@ function DucatCtrl($scope) {
 		return ducat * price;
 	};
 
-	$scope.partner = true;
+
 	$scope.init = function() {
 		angular.forEach($scope.citys, function(city, key) {
 			for (var i = 0; i < city[2].length; i++) {
