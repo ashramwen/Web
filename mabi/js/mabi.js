@@ -64,10 +64,6 @@ function MabiCtrl($scope) {
 		target : "_blank",
 		text : "活動時間表"
 	}, {
-		url : "http://forum.gamer.com.tw/C.php?bsn=07422&snA=221554&tnum=19",
-		target : "_blank",
-		text : "SAO刀劍神域"
-	}, {
 		url : "https://docs.google.com/a/inventalk.com.tw/spreadsheet/ccc?key=0AmYaqEn_Pcx6dFVoSm12UWRuLVc3dVY5XzdrZWxObVE&usp=sharing#gid=0",
 		target : "_blank",
 		text : "背包整理"
@@ -91,9 +87,5 @@ function MabiCtrl($scope) {
 		url : "http://tw.beanfun.com/mabinogi/index.aspx",
 		target : "_blank",
 		text : "瑪奇官網"
-	}, {
-		url : "https://www.youtube.com/playlist?list=PLUM8x224JrX_Dh3aC_9zx45Krq_cpZYic",
-		target : "_blank",
-		text : "《爸爸去哪儿》第二季"
 	}];
 }
