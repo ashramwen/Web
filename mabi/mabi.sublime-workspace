@@ -1,0 +1,462 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"inline",
+				"inline-block"
+			],
+			[
+				"fon",
+				"font-size"
+			],
+			[
+				"fo",
+				"font-family"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "js/ctrl/dailyCtrl.js",
+			"settings":
+			{
+				"buffer_size": 910,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "view/dailyquest/index.html",
+			"settings":
+			{
+				"buffer_size": 1347,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "index.html",
+			"settings":
+			{
+				"buffer_size": 5099,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"selected_items":
+		[
+			[
+				"pi",
+				"Package Control: Install Package"
+			],
+			[
+				"Pi",
+				"Package Control: Install Package"
+			],
+			[
+				"pr",
+				"Package Control: Remove Package"
+			],
+			[
+				"pl",
+				"Package Control: List Packages"
+			],
+			[
+				"pre",
+				"Package Control: Remove Package"
+			],
+			[
+				"package list",
+				"Package Control: List Packages"
+			],
+			[
+				"pci",
+				"Package Control: Install Package"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"bower",
+				"Bower: Install"
+			],
+			[
+				"install",
+				"Bower: Install"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: install",
+				"Package Control: Install Package"
+			],
+			[
+				"terminal",
+				"Preferences: Terminal Settings – Default"
+			],
+			[
+				"insta ",
+				"Bower: Install"
+			],
+			[
+				"Package Control: r",
+				"Package Control: Remove Package"
+			],
+			[
+				"boew",
+				"Bower: Install"
+			],
+			[
+				"inst",
+				"Minify::User File Settings"
+			],
+			[
+				"html",
+				"HTMLPrettify: Set `node` Path"
+			],
+			[
+				"htmlpr",
+				"HTMLPrettify"
+			],
+			[
+				"htmlp",
+				"HTMLPrettify"
+			]
+		],
+		"width": 512.0
+	},
+	"console":
+	{
+		"height": 146.0,
+		"history":
+		[
+			"npm",
+			"bower",
+			"Bower",
+			"bower",
+			"bower search angular",
+			"bower install angular",
+			"html:5",
+			"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/D/GitHub/Web/mabi",
+		"/D/GitHub/Web/mabi/css",
+		"/D/GitHub/Web/mabi/js/ctrl",
+		"/D/GitHub/Web/mabi/json/dailyquest",
+		"/D/GitHub/Web/mabi/lib/angular-1.3.5",
+		"/D/GitHub/Web/mabi/sb-admin-2/js",
+		"/D/GitHub/Web/mabi/sb-admin-2/js/plugins",
+		"/D/GitHub/Web/mabi/sb-admin-2/js/plugins/metisMenu",
+		"/D/GitHub/Web/mabi/scss",
+		"/D/GitHub/Web/mabi/view",
+		"/D/GitHub/Web/mabi/view/dailyquest"
+	],
+	"file_history":
+	[
+		"/D/GitHub/Web/mabi/scss/daily.scss",
+		"/D/GitHub/Web/mabi/index.html",
+		"/D/GitHub/Web/mabi/lib/angular-1.3.5/angular-sanitize.js",
+		"/D/GitHub/Web/mabi/js/ctrl/mabiCtrl.js",
+		"/D/GitHub/Web/mabi/js/app.js",
+		"/D/GitHub/Web/mabi/view/dailyquest/index.html",
+		"/D/Workspace/angular/angular-cookie-master/angular-cookie.js",
+		"/C/Users/Han/AppData/Roaming/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
+		"/D/GitHub/Web/mabi/json/dailyquest/index.php",
+		"/D/GitHub/Web/mabi/view/enchant/index.html",
+		"/D/GitHub/Web/mabi/view/blacksmith/index.html",
+		"/D/GitHub/Web/mabi/js/ctrl/dailyCtrl.js",
+		"/D/GitHub/Web/mabi/view/ducat/index.html",
+		"/D/Workspace/sb-admin-2/index.html",
+		"/D/GitHub/Web/mabi/_index.html",
+		"/D/GitHub/Web/mabi/css/animation.css",
+		"/D/GitHub/Web/mabi/scss/animation.scss",
+		"/D/GitHub/Web/mabi/view/dailyquest/index.php",
+		"/D/GitHub/Web/mabi/scss/note.scss",
+		"/D/GitHub/Web/mabi/scss/ducat.scss",
+		"/D/GitHub/Web/mabi/view/note/index.html",
+		"/D/GitHub/Web/mabi/mabi.sublime-project",
+		"/C/Users/Han/AppData/Roaming/Sublime Text 3/Packages/User/View In Browser.sublime-settings",
+		"/C/Users/Han/AppData/Roaming/Sublime Text 3/Packages/View In Browser/View In Browser.sublime-settings",
+		"/D/Workspace/angular/ngView-animation-effects-master/app/lib/prism/themes/prism.css",
+		"/D/Workspace/angular/ngView-animation-effects-master/app/js/directives/backAnimation.js",
+		"/D/Workspace/angular/ngView-animation-effects-master/app/css/app.css",
+		"/C/Users/Han/AppData/Roaming/Sublime Text 3/Packages/HTML-CSS-JS Prettify/.jsbeautifyrc",
+		"/D/GitHub/Web/mabi/scss/main.scss",
+		"/C/Users/Han/AppData/Roaming/Sublime Text 3/Packages/HTML-CSS-JS Prettify/HTMLPrettify.sublime-settings",
+		"/D/GitHub/Web/mabi/css/main.css",
+		"/D/GitHub/Web/mabi/config.rb",
+		"/D/GitHub/Web/mabi/css/font-awesome/less/path.less",
+		"/D/GitHub/Web/mabi/js/plugins/flot/jquery.flot.pie.js",
+		"/C/Users/Han/AppData/Roaming/Sublime Text 3/Packages/User/Default (Windows).sublime-keymap",
+		"/C/Users/Han/AppData/Roaming/Sublime Text 3/Packages/SassBeautify/SassBeautify.sublime-settings",
+		"/D/GitHub/Web/mabi/js/mabiCtrl.js",
+		"/D/GitHub/Web/mabi/css/ducat.css",
+		"/D/GitHub/Web/mabi/enchant/enchant.css",
+		"/D/GitHub/Web/mabi/enchant/index.html",
+		"/D/GitHub/Web/mabi/ducat/index.html",
+		"/D/GitHub/Web/mabi/js/ducatCtrl.js",
+		"/D/GitHub/Web/mabi/note/index.html",
+		"/D/Workspace/Web/vedio/index.html",
+		"/D/Workspace/Web/vedio/css/video.css",
+		"/D/Workspace/get.php",
+		"/D/Workspace/Web/vedio/test.html",
+		"/D/Workspace/Web/vedio/index.php",
+		"/D/Workspace/Web/video-js/video.dev.js",
+		"/C/Users/Han/AppData/Roaming/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/D/Workspace/Web/vedio/vedio.html",
+		"/D/Workspace/Web/vedio/js/app.js",
+		"/D/Workspace/Web/vedio/js/controllers.js",
+		"/C/Users/Han/AppData/Roaming/Sublime Text 3/Packages/Terminal/Terminal.sublime-settings",
+		"/C/Users/Han/AppData/Roaming/Sublime Text 3/Packages/User/Minify.sublime-settings",
+		"/D/GitHub/Web - 複製/mabi/index.html",
+		"/C/Users/Han/AppData/Roaming/Sublime Text 3/Packages/HTML-CSS-JS Prettify/Default (Windows).sublime-keymap",
+		"/C/Users/Han/AppData/Roaming/Sublime Text 3/Packages/User/HTML.sublime-settings",
+		"/D/GitHub/PSEditor/index.html"
+	],
+	"find":
+	{
+		"height": 38.0
+	},
+	"find_in_files":
+	{
+		"height": 90.0,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"doneList",
+			"font-awesome",
+			"ngBindHtml",
+			"\"",
+			"repeatDone",
+			"/mabi/",
+			"page-wrapper",
+			"repeat-done",
+			"repeatDone",
+			"tweet"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"'",
+			""
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 2,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "js/ctrl/dailyCtrl.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 910,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								806,
+								806
+							]
+						],
+						"settings":
+						{
+							"origin_encoding": "ASCII",
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "view/dailyquest/index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1347,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								380,
+								388
+							]
+						],
+						"settings":
+						{
+							"origin_encoding": "ASCII",
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true,
+							"word_wrap": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 5099,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"origin_encoding": "UTF-8",
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 30.0
+	},
+	"input":
+	{
+		"height": 38.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 32.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"project": "mabi.sublime-project",
+	"replace":
+	{
+		"height": 70.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 338.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

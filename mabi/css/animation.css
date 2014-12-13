@@ -1,26 +1,54 @@
+/* line 7, ../scss/animation.scss */
 .animate-show {
-  -webkit-transition:all linear 0.5s;
-  transition:all linear 0.5s;
-  line-height:20px;
-  opacity:1;
-  padding:10px;
-  border:1px solid black;
-  background:white;
+  transition: all linear 0.5s;
+  line-height: 20px;
+  opacity: 1;
+  padding: 10px;
+  border: 1px solid black;
+  background: white;
 }
- 
-.animate-show.ng-hide-add,
+/* line 15, ../scss/animation.scss */
+.animate-show.ng-hide-add {
+  display: block !important;
+}
+/* line 18, ../scss/animation.scss */
 .animate-show.ng-hide-remove {
-  display:block!important;
+  display: block !important;
 }
- 
+/* line 21, ../scss/animation.scss */
 .animate-show.ng-hide {
-  line-height:0;
-  opacity:0;
-  padding:0 10px;
+  line-height: 0;
+  opacity: 0;
+  padding: 0 10px;
 }
- 
+
+/* line 28, ../scss/animation.scss */
 .check-element {
-  padding:10px;
-  border:1px solid black;
-  background:white;
+  padding: 10px;
+  border: 1px solid black;
+  background: white;
+}
+
+/* line 34, ../scss/animation.scss */
+.fade {
+  height: 100%;
+  opacity: 1;
+}
+/* line 41, ../scss/animation.scss */
+.fade.ng-enter {
+  transition: all 1s ease;
+  opacity: 0;
+}
+/* line 46, ../scss/animation.scss */
+.fade.ng-leave {
+  transition: all 1s ease;
+  opacity: 1;
+}
+/* line 51, ../scss/animation.scss */
+.fade.ng-enter-active {
+  opacity: 1;
+}
+/* line 54, ../scss/animation.scss */
+.fade.ng-leave-active {
+  opacity: 0;
 }

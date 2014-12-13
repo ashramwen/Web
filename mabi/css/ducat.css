@@ -1,0 +1,56 @@
+/* line 4, ../scss/ducat.scss */
+.ducat .w60 {
+  width: 60px;
+}
+/* line 7, ../scss/ducat.scss */
+.ducat .w100 {
+  width: 100px;
+}
+/* line 10, ../scss/ducat.scss */
+.ducat .w120 {
+  width: 120px;
+}
+/* line 13, ../scss/ducat.scss */
+.ducat .w200 {
+  width: 200px;
+}
+/* line 16, ../scss/ducat.scss */
+.ducat .cou_txt1 {
+  background-color: #eef6fc;
+  font-weight: bold;
+}
+/* line 20, ../scss/ducat.scss */
+.ducat .cou_txt2 {
+  background: url("../images/cou2.jpg") left top repeat-y;
+}
+/* line 23, ../scss/ducat.scss */
+.ducat .se_txt {
+  color: #1b97c2;
+}
+/* line 26, ../scss/ducat.scss */
+.ducat .CC {
+  text-align: center;
+}
+/* line 29, ../scss/ducat.scss */
+.ducat .m20 {
+  margin: 20px;
+}
+/* line 32, ../scss/ducat.scss */
+.ducat .crimson {
+  color: crimson;
+  font-weight: bold;
+}
+/* line 37, ../scss/ducat.scss */
+.ducat ul.nav-tabs li:not(.active) {
+  cursor: pointer;
+}
+/* line 41, ../scss/ducat.scss */
+.ducat table.calculate {
+  border: 1px solid lightgray;
+  border-spacing: 2px;
+}
+/* line 44, ../scss/ducat.scss */
+.ducat table.calculate th, .ducat table.calculate td {
+  border: 1px solid lightgray;
+  border-spacing: 2px;
+}

@@ -1,0 +1,15 @@
+{
+	"folders":
+	[
+		{
+			"follow_symlinks": true,
+			"path": "."
+		}
+	],
+    "settings": {
+        "sublime-view-in-browser": {
+            "baseUrl": "http://localhost/mabi",
+            "basePath": "D:\\GitHub\\Web\\mabi"
+        }
+    }
+}
